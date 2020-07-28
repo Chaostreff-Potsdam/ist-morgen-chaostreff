@@ -1,2 +1,2 @@
 ## Ist morgen Chaostreff?
-**JA**
+<div style="vertical-align:middle"> **JA **(also wahrscheinlich, wenn das Wetter so bleibt)</div>
