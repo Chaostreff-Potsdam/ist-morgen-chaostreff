@@ -9,6 +9,7 @@
   var wednesday = 3;
   
   var treffDay = wednesday;
+  var dayBeforeTreff = treffDay -1;
   
   var answers = {
     true:  "JA!",
@@ -18,5 +19,5 @@
   var date = new Date();
   var dayOfWeek = date.getDay();
   
-  document.getElementById("answer").innerHTML = answers[dayOfWeek == treffDay];
+  document.getElementById("answer").innerHTML = answers[dayOfWeek == dayBeforeTreff];
  </script>
