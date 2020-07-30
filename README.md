@@ -9,7 +9,7 @@
 ## [Ist heute Chaostreff?](http://www.ist-heute-chaostreff.online)
 
  <script>
-  var wednesday = 4;
+  var wednesday = 3;
   
   var treffDay = wednesday;
   var dayBeforeTreff = treffDay -1;
