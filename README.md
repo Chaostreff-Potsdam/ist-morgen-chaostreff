@@ -9,6 +9,7 @@
 ## [Ist heute Chaostreff?](http://www.ist-heute-chaostreff.online)
 
  <script>
+ function updateAnswer(){
   var wednesday = 3;
   
   var treffDay = wednesday;
@@ -24,4 +25,6 @@
   
   document.getElementById("answer").innerHTML = answers[dayOfWeek == dayBeforeTreff];
   document.getElementById("noscript").remove();
+ }
+ updateAnswer();
  </script>
